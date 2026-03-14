@@ -2184,7 +2184,7 @@
 		)
 		(uuid "39b6f2e0-94ca-4508-8fa8-a474ab3e6bfb")
 	)
-	(hierarchical_label "5V"
+	(hierarchical_label "5V_ATX"
 		(shape output)
 		(at 39.37 64.77 270)
 		(effects
