@@ -1,0 +1,211 @@
+ERC report (2026-03-14T07:46:42-0500, Encoding UTF8)
+
+***** Sheet /
+[label_dangling]: Label not connected to anything
+    ; error
+    @(8600 mils, 2300 mils): Label 'SPI_CS_COL0'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(8700 mils, 2300 mils): Label 'SPI_H_CLK'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(8800 mils, 2300 mils): Label 'SPI_H_MISO'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(8900 mils, 2300 mils): Label 'SPI_H_MOSI'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(2350 mils, 9200 mils): Label 'SPI_H_CLK'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(2450 mils, 9200 mils): Label 'SPI_H_MISO'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(2550 mils, 9200 mils): Label 'SPI_H_MOSI'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(9350 mils, 2300 mils): Label 'SYS_NRST'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(14550 mils, 2300 mils): Label 'SPI_CS_COL1'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(14650 mils, 2300 mils): Label 'SPI_H_CLK'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(14750 mils, 2300 mils): Label 'SPI_H_MISO'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(14850 mils, 2300 mils): Label 'SPI_H_MOSI'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(15350 mils, 2300 mils): Label 'SYS_NRST'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(5150 mils, 14800 mils): Label 'SPI_H_MOSI'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(5150 mils, 14900 mils): Label 'SPI_H_MISO'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(5150 mils, 15000 mils): Label 'SPI_H_CLK'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(5150 mils, 15100 mils): Label 'SPI_CS_COL3'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(5150 mils, 15200 mils): Label 'SPI_CS_COL2'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(5150 mils, 15300 mils): Label 'SPI_CS_COL1'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(5150 mils, 15400 mils): Label 'SPI_CS_COL0'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(5150 mils, 15650 mils): Label 'SYS_NRST'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(20800 mils, 2300 mils): Label 'SPI_CS_COL2'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(20900 mils, 2300 mils): Label 'SPI_H_CLK'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(21000 mils, 2300 mils): Label 'SPI_H_MISO'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(21100 mils, 2300 mils): Label 'SPI_H_MOSI'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(21550 mils, 2300 mils): Label 'SYS_NRST'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(13850 mils, 18550 mils): Hierarchical Sheet Pin GND
+[label_dangling]: Label not connected to anything
+    ; error
+    @(26900 mils, 2300 mils): Label 'SPI_CS_COL3'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(27000 mils, 2300 mils): Label 'SPI_H_CLK'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(27100 mils, 2300 mils): Label 'SPI_H_MISO'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(27200 mils, 2300 mils): Label 'SPI_H_MOSI'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(27750 mils, 2300 mils): Label 'SYS_NRST'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(5050 mils, 3500 mils): Hierarchical Label 'SPI_CS_COL3'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(5050 mils, 3600 mils): Hierarchical Label 'SPI_CS_COL2'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(5050 mils, 3700 mils): Hierarchical Label 'SPI_CS_COL1'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(5050 mils, 3800 mils): Hierarchical Label 'SPI_CS_COL0'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(5050 mils, 3900 mils): Hierarchical Label 'SPI_H_CLK'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(5050 mils, 4000 mils): Hierarchical Label 'SPI_H_MISO'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(5050 mils, 4100 mils): Hierarchical Label 'SPI_H_MOSI'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(6250 mils, 3400 mils): Hierarchical Label 'SYS_NRST'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(6250 mils, 3500 mils): Hierarchical Label 'SYS_FAULT'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(10700 mils, 550 mils): Hierarchical Label 'SYS_FAULT'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(10700 mils, 650 mils): Hierarchical Label 'PWR_GOOD'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(10700 mils, 750 mils): Hierarchical Label 'SPI_H_CLK'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(10700 mils, 850 mils): Hierarchical Label 'SPI_H_MOSI'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(10700 mils, 950 mils): Hierarchical Label 'SPI_H_MISO'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(10700 mils, 1050 mils): Hierarchical Label '3V3_MAIN'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(10750 mils, 550 mils): Hierarchical Label 'SPI_H_CLK'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(10750 mils, 650 mils): Hierarchical Label 'SPI_H_MOSI'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(10750 mils, 750 mils): Hierarchical Label 'SPI_H_MISO'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(10750 mils, 850 mils): Hierarchical Label 'SPI_CS'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(10750 mils, 950 mils): Hierarchical Label 'SYS_NRST'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(10750 mils, 1050 mils): Hierarchical Label 'SYS_FAULT'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(10750 mils, 1150 mils): Hierarchical Label '5V_ATX'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(3100 mils, 3200 mils): Hierarchical Label 'PWR_GOOD'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(2250 mils, 9200 mils): Global Label 'PWR_GOOD'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(9250 mils, 2350 mils): Global Label 'SYS_FAULT'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(2650 mils, 9200 mils): Global Label 'SYS_FAULT'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(15250 mils, 2350 mils): Global Label 'SYS_FAULT'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(5150 mils, 15750 mils): Global Label 'SYS_FAULT'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(21450 mils, 2350 mils): Global Label 'SYS_FAULT'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(13850 mils, 18650 mils): Global Label 'PWR_GOOD'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(27650 mils, 2350 mils): Global Label 'SYS_FAULT'
+[footprint_link_issues]: The current configuration does not include the footprint library 'PJ-002A'.
+    ; warning
+    @(1450 mils, 1500 mils): Symbol J1 [PJ-002A]
+
+***** Sheet /backplane_power/
+
+***** Sheet /col_1/
+
+***** Sheet /col_0/
+
+***** Sheet /col_2/
+
+***** Sheet /col_3/
+
+***** Sheet /host_mcu/
+
+***** Sheet /backplane_leds/
+
+ ** ERC messages: 64  Errors 55  Warnings 9
