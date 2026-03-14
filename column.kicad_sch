@@ -1,0 +1,99 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e434424c-c2af-426c-9267-4cab8b28cc0e")
+	(paper "A4")
+	(title_block
+		(date "3/13/26")
+	)
+	(lib_symbols)
+	(hierarchical_label "SYS_NRST"
+		(shape input)
+		(at 273.05 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3d96890c-e8aa-402a-8b66-3a29fad583ed")
+	)
+	(hierarchical_label "5V_ATX"
+		(shape input)
+		(at 273.05 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3ff3ad35-cb1d-447d-a876-85288b1de54d")
+	)
+	(hierarchical_label "SPI_CS"
+		(shape input)
+		(at 273.05 21.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "629d23b1-6234-4a71-9cc3-6075a8ded26e")
+	)
+	(hierarchical_label "SPI_H_MISO"
+		(shape output)
+		(at 273.05 19.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "66a4c01b-7a68-4929-b79e-2c6b4ace89ee")
+	)
+	(hierarchical_label "SPI_H_CLK"
+		(shape input)
+		(at 273.05 13.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6e828b47-b660-4964-bd74-fb335739821d")
+	)
+	(hierarchical_label "SYS_FAULT"
+		(shape bidirectional)
+		(at 273.05 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "76969431-bf8b-481c-8561-c94067172390")
+	)
+	(hierarchical_label "3V3_COL"
+		(shape output)
+		(at 273.05 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "879e7804-dcd3-453e-8177-5dd0125c78e8")
+	)
+	(hierarchical_label "SPI_H_MOSI"
+		(shape input)
+		(at 273.05 16.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cb6bea27-0f41-4fee-a33c-3f3f3d6d95e9")
+	)
+)

@@ -1,0 +1,2066 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "5e6c9623-e737-45ef-bb1f-893413b06cbf")
+	(paper "A1")
+	(title_block
+		(title "STASIS Backplane - Top Level")
+		(date "3/13/26")
+		(rev "0.1")
+		(company "Hack Club Stasis")
+	)
+	(lib_symbols
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(label "SPI_CS_COL1"
+		(at 369.57 59.69 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d9c36d0-5ce4-42dd-81d3-03e9bfa2f273")
+	)
+	(label "SPI_H_MOSI"
+		(at 377.19 59.69 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "28cd8885-33ed-44a7-8f04-7237b3146d69")
+	)
+	(label "SPI_CS_COL3"
+		(at 683.26 59.69 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c1230f5-6049-4e27-b7da-70c4900057a3")
+	)
+	(label "SPI_CS_COL2"
+		(at 528.32 59.69 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e5f4131-8624-4c72-ba81-3384d18e55de")
+	)
+	(label "SYS_NRST"
+		(at 237.49 59.69 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "411b61bb-3db0-441b-9876-71c62cef57f0")
+	)
+	(label "SPI_CS_COL0"
+		(at 130.81 391.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "41f9c9dd-c1ed-4740-ac8e-472dcb75f305")
+	)
+	(label "SPI_CS_COL0"
+		(at 218.44 59.69 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "425ae087-02b8-40f1-b40b-03eea9efd810")
+	)
+	(label "SPI_CS_COL2"
+		(at 130.81 386.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "444df5fb-ec9f-4f70-b4d4-08b56db3a877")
+	)
+	(label "SPI_H_MISO"
+		(at 130.81 378.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "453567cf-8c27-4027-b08f-79350767cbb6")
+	)
+	(label "SPI_H_MISO"
+		(at 62.23 233.68 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4625dc08-9bf9-4112-a47b-155ae60f29ff")
+	)
+	(label "SPI_H_CLK"
+		(at 220.98 59.69 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "49edacbc-2d1b-4d6f-8a97-0111e01711b2")
+	)
+	(label "SPI_H_MISO"
+		(at 374.65 59.69 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5728a755-7760-466b-9f6b-740b8f9815d0")
+	)
+	(label "SPI_H_CLK"
+		(at 530.86 59.69 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5fdb668e-7380-47ba-b736-841bca750398")
+	)
+	(label "SPI_CS_COL1"
+		(at 130.81 388.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6273c8ec-d301-4fe9-8039-4282c094ebec")
+	)
+	(label "SPI_H_CLK"
+		(at 685.8 59.69 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "67339ebd-b062-4193-b7f1-d44dd4077049")
+	)
+	(label "SPI_CS_COL3"
+		(at 130.81 383.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "685a6ef1-7f90-48bc-acd5-0587bcddff74")
+	)
+	(label "SPI_H_MOSI"
+		(at 690.88 59.69 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a9e3a1d-881c-4faf-8a2d-1bfd230b2aeb")
+	)
+	(label "SYS_NRST"
+		(at 389.89 59.69 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "733b41eb-cd5e-47b4-975d-02bed3ae048b")
+	)
+	(label "SPI_H_CLK"
+		(at 372.11 59.69 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "75121598-6349-4cbe-bdcd-e34f6fbb245c")
+	)
+	(label "SPI_H_MOSI"
+		(at 535.94 59.69 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "84fed3c7-4684-44ed-8996-abe5eedd7ddd")
+	)
+	(label "SPI_H_CLK"
+		(at 130.81 381 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "891d766e-7180-4896-b5ba-dee167969c4a")
+	)
+	(label "SPI_H_MISO"
+		(at 223.52 59.69 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a9a8e873-6ebd-4c1b-9a90-cc4aef9d91cf")
+	)
+	(label "SYS_NRST"
+		(at 130.81 397.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b202a064-0291-4801-a758-c1b8f891e312")
+	)
+	(label "SPI_H_MISO"
+		(at 688.34 59.69 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6f5053a-6ccd-4dac-8a5a-5fe89335db64")
+	)
+	(label "SPI_H_MISO"
+		(at 533.4 59.69 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb112dd6-1bde-4200-9a0c-82058a3bc957")
+	)
+	(label "SPI_H_CLK"
+		(at 59.69 233.68 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cbc2fb4b-2547-491b-a894-8742b336967c")
+	)
+	(label "SYS_NRST"
+		(at 547.37 59.69 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d1590d69-f5e4-424d-b80e-33f7d4053ef6")
+	)
+	(label "SYS_NRST"
+		(at 704.85 59.69 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "df05e38a-6436-49fd-ac7f-370bdec00783")
+	)
+	(label "SPI_H_MOSI"
+		(at 130.81 375.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e912368c-ba62-4f13-9ece-3087aa068971")
+	)
+	(label "SPI_H_MOSI"
+		(at 64.77 233.68 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e95b6dd2-aebd-461a-8211-15173e3fab42")
+	)
+	(label "SPI_H_MOSI"
+		(at 226.06 59.69 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb50fbd5-e757-442d-9d53-2b716211fc77")
+	)
+	(global_label "SYS_FAULT"
+		(shape bidirectional)
+		(at 387.35 59.69 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1c5db661-319d-4f8a-ae79-b1a052816653")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 387.35 45.6149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SYS_FAULT"
+		(shape bidirectional)
+		(at 67.31 233.68 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "336b7ede-1a9e-43ca-b1f2-0b9ae083b5a6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.31 247.7551 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3_MAIN"
+		(shape input)
+		(at 54.61 233.68 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3f843216-d01b-42ce-8d1d-c0a8e5e278af")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.61 245.6157 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3_MAIN"
+		(shape output)
+		(at 351.79 466.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4cd56cca-4ddb-44ef-868d-ca9fd89d9cbd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 363.7257 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWR_GOOD"
+		(shape output)
+		(at 351.79 473.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6087acf3-04dd-4038-90c0-96eade2e1b23")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 364.9352 473.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SYS_FAULT"
+		(shape bidirectional)
+		(at 234.95 59.69 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "74253e45-99e1-4993-9a7a-019b9076110c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 234.95 45.6149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SYS_FAULT"
+		(shape bidirectional)
+		(at 702.31 59.69 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "80218581-77ab-431a-8659-ba47a7ff3601")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 702.31 45.6149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V_ATX"
+		(shape input)
+		(at 668.02 59.69 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "909157ff-6632-4583-9f9c-b7432bc60cbe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 668.02 50.1734 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V_ATX"
+		(shape input)
+		(at 355.6 59.69 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "96fb7b5f-ae82-4a38-8c2a-f52b316fb569")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 355.6 50.1734 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWR_GOOD"
+		(shape input)
+		(at 57.15 233.68 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9926fd93-bb80-4e9b-8498-7d93593e5103")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.15 246.8252 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SYS_FAULT"
+		(shape bidirectional)
+		(at 544.83 59.69 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9c8d2292-5349-452c-82f1-42aa0f42c425")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 544.83 45.6149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V_ATX"
+		(shape output)
+		(at 351.79 468.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ac02d768-6f0a-43eb-8f8f-5b01f54e82f6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 361.3066 468.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V_ATX"
+		(shape input)
+		(at 514.35 59.69 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b4a2afc9-f6ce-4fe9-ad2c-78dcd73e1930")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 514.35 50.1734 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V_ATX"
+		(shape input)
+		(at 201.93 59.69 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d3ff2e3d-7139-47bb-b56e-2b06f79a2a47")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.93 50.1734 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SYS_FAULT"
+		(shape bidirectional)
+		(at 130.81 400.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ee2adbd7-396e-4b24-bc36-9214f92c0eeb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.8851 400.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3_MAIN"
+		(shape input)
+		(at 130.81 358.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f216a621-1e7e-4324-8fcf-6e91e0c978b6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.7457 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 22.86 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20d51d9d-5c01-4fc2-8514-a8b1d24d2823")
+		(property "Reference" "#PWR03"
+			(at 22.86 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 22.86 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 22.86 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ef3f20a-1921-4774-9ace-b90da3a57bbe")
+		)
+		(instances
+			(project ""
+				(path "/5e6c9623-e737-45ef-bb1f-893413b06cbf"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 17.78 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93272a2f-8b88-497c-896d-a26c75fa216d")
+		(property "Reference" "#PWR01"
+			(at 17.78 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 17.78 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 17.78 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 17.78 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6727befd-ea94-41e4-99b3-a5dc55ff9fca")
+		)
+		(instances
+			(project ""
+				(path "/5e6c9623-e737-45ef-bb1f-893413b06cbf"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 22.86 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c86712a0-3e49-449d-8c1e-b681197cc88f")
+		(property "Reference" "#PWR02"
+			(at 22.86 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 22.86 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 22.86 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1609dcdc-c998-46c1-98c3-771ea6cff9ed")
+		)
+		(instances
+			(project ""
+				(path "/5e6c9623-e737-45ef-bb1f-893413b06cbf"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 502.92 59.69)
+		(size 124.46 375.92)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0276f070-05cd-4ac9-a010-ce24c4c80ca1")
+		(property "Sheetname" "col_2"
+			(at 502.92 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "column.kicad_sch"
+			(at 502.92 436.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3_COL" output
+			(at 511.81 59.69 90)
+			(uuid "2ea1f781-62e6-405d-bd53-de9c80cb08f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5V_ATX" input
+			(at 514.35 59.69 90)
+			(uuid "52375800-7bfb-4359-acfc-fa11c297cdd7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_CS" input
+			(at 528.32 59.69 90)
+			(uuid "894c3c8d-cda6-464c-bc9c-b018ccb1fa62")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_H_CLK" input
+			(at 530.86 59.69 90)
+			(uuid "f7734bef-0e12-4cbc-8534-168e2db97056")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_H_MISO" output
+			(at 533.4 59.69 90)
+			(uuid "95e3e4d8-4bfb-4b0a-a566-b11d5fd7181a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_H_MOSI" input
+			(at 535.94 59.69 90)
+			(uuid "12deb8dc-74fd-4afb-87d6-5cab4daa6d0d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SYS_FAULT" bidirectional
+			(at 544.83 59.69 90)
+			(uuid "fbf0d733-0b37-4068-a805-199ad6aab323")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SYS_NRST" input
+			(at 547.37 59.69 90)
+			(uuid "0ea8746d-4041-4f7f-94a8-31afb42eda75")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ch32v003-512"
+				(path "/5e6c9623-e737-45ef-bb1f-893413b06cbf"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 346.71 59.69)
+		(size 124.46 375.92)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7a544113-dc97-4dca-96e8-b3ec478d9f40")
+		(property "Sheetname" "col_1"
+			(at 346.71 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "column.kicad_sch"
+			(at 346.71 436.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3_COL" output
+			(at 353.06 59.69 90)
+			(uuid "5f335f6f-7c6e-4206-bdfa-28098109c93e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5V_ATX" input
+			(at 355.6 59.69 90)
+			(uuid "ed160192-eb00-4662-a89c-53c65a43065e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_CS" input
+			(at 369.57 59.69 90)
+			(uuid "28e2acae-9c56-4996-b43e-d2f2039ae149")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_H_CLK" input
+			(at 372.11 59.69 90)
+			(uuid "1d19d40e-4bef-43d4-b153-856bd78b4cdd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_H_MISO" output
+			(at 374.65 59.69 90)
+			(uuid "ef37ba0c-b819-4970-adc9-6c394fb61b4d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_H_MOSI" input
+			(at 377.19 59.69 90)
+			(uuid "0463daf9-7408-45af-8254-8ccc0ff1bbe1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SYS_FAULT" bidirectional
+			(at 387.35 59.69 90)
+			(uuid "b2c1e56c-7021-48ea-8ab0-2e1fe4cad271")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SYS_NRST" input
+			(at 389.89 59.69 90)
+			(uuid "4dd003d5-9058-495f-9514-fe406a5e1c3a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ch32v003-512"
+				(path "/5e6c9623-e737-45ef-bb1f-893413b06cbf"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.67 27.94)
+		(size 134.62 205.74)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8314c24c-20a7-45ab-acb0-b394edfeb177")
+		(property "Sheetname" "backplane_leds"
+			(at 26.67 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "backled.kicad_sch"
+			(at 26.67 234.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3_MAIN" input
+			(at 54.61 233.68 270)
+			(uuid "b8c67f43-5100-47b5-b72b-f93a8d0afd0c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWR_GOOD" input
+			(at 57.15 233.68 270)
+			(uuid "343d565d-aa6d-4f81-a5f6-88d509b943ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI_H_CLK" input
+			(at 59.69 233.68 270)
+			(uuid "e51925b3-2a82-40c7-ac3f-1acd35408bfe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI_H_MISO" input
+			(at 62.23 233.68 270)
+			(uuid "ccda2746-3331-40fa-be60-a9bfa82063c0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI_H_MOSI" input
+			(at 64.77 233.68 270)
+			(uuid "0f50e99f-c706-4ebc-a309-6d53250c1c6a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SYS_FAULT" input
+			(at 67.31 233.68 270)
+			(uuid "f91fff7a-9a46-489d-9908-cb9fc83297e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ch32v003-512"
+				(path "/5e6c9623-e737-45ef-bb1f-893413b06cbf"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 351.79)
+		(size 105.41 177.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "87629fef-9fac-45b6-bfc9-ce4ed6f7f2e5")
+		(property "Sheetname" "host_mcu"
+			(at 25.4 351.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "host.kicad_sch"
+			(at 25.4 530.1746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SPI_CS_COL0" output
+			(at 130.81 391.16 0)
+			(uuid "75043e65-05c6-425d-808c-2adb6309a9d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_CS_COl1" output
+			(at 130.81 388.62 0)
+			(uuid "4d52bd8a-743f-43d5-b193-5428a27c7d80")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_CS_COL2" output
+			(at 130.81 386.08 0)
+			(uuid "c3da446c-ac5d-49b2-81ec-2fe9c854bfd1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_CS_COL3" output
+			(at 130.81 383.54 0)
+			(uuid "7ee977f5-e0d4-412d-b0f7-a1618d823c5c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_H_CLK" output
+			(at 130.81 381 0)
+			(uuid "80ded1ea-7e56-4276-9b11-ac6a973c696c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_H_MISO" input
+			(at 130.81 378.46 0)
+			(uuid "bcd6d297-ae5a-4fba-b89a-13f8de53fd3c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_H_MOSI" output
+			(at 130.81 375.92 0)
+			(uuid "0a4956b7-ceaf-4b04-8e38-89d5175eb77b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SYS_FAULT" output
+			(at 130.81 400.05 0)
+			(uuid "934da521-bb3e-41ba-af0e-b9229740a738")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SYS_NRST" output
+			(at 130.81 397.51 0)
+			(uuid "7cd5890a-6877-4835-b7f7-66b0d5103e5a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DM" bidirectional
+			(at 130.81 368.3 0)
+			(uuid "cd34fa18-b9e6-4940-ac65-f99b92c1edd1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DP" bidirectional
+			(at 130.81 365.76 0)
+			(uuid "e1051642-fcbd-494b-a063-f78b908c39a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3V3_MAIN" input
+			(at 130.81 358.14 0)
+			(uuid "dc53e7e8-eb83-430a-8eb2-39568645f79d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ch32v003-512"
+				(path "/5e6c9623-e737-45ef-bb1f-893413b06cbf"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 269.24 459.74)
+		(size 82.55 107.95)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b8351e1f-904b-419f-b494-e06af66ff8cc")
+		(property "Sheetname" "backplane_power"
+			(at 269.24 459.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "backplane_psu.kicad_sch"
+			(at 269.24 568.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3" output
+			(at 351.79 466.09 0)
+			(uuid "4a9dc22d-e943-4dec-846b-8adaa7f97219")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5V" output
+			(at 351.79 468.63 0)
+			(uuid "464c5c36-9000-4c36-8371-6a0d250e8677")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" output
+			(at 351.79 471.17 0)
+			(uuid "49b56ef5-0bbd-4a9b-a7d5-ceb4baff78a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWR_GOOD" output
+			(at 351.79 473.71 0)
+			(uuid "64cf2607-d5ec-4fd2-af06-a5a5a55324bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ch32v003-512"
+				(path "/5e6c9623-e737-45ef-bb1f-893413b06cbf"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 659.13 59.69)
+		(size 124.46 375.92)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c41a39bb-4d27-400b-9ac0-37562a1db907")
+		(property "Sheetname" "col_3"
+			(at 659.13 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "column.kicad_sch"
+			(at 659.13 436.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3_COL" output
+			(at 665.48 59.69 90)
+			(uuid "e3929ef0-ae9c-42db-91dc-11f029c87e86")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5V_ATX" input
+			(at 668.02 59.69 90)
+			(uuid "c4bdd6f7-2438-4aaa-b6a8-4bae852385ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_CS" input
+			(at 683.26 59.69 90)
+			(uuid "a9bf5871-ab45-4f72-910d-7b0217959ddb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_H_CLK" input
+			(at 685.8 59.69 90)
+			(uuid "ba33e5ab-c2eb-4dc2-8ad5-abe53e9bc972")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_H_MISO" output
+			(at 688.34 59.69 90)
+			(uuid "a0134a68-cc7a-4d63-a348-d4557867843c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_H_MOSI" input
+			(at 690.88 59.69 90)
+			(uuid "cedd7003-bad0-47ca-8ad1-dcffeb9d2d3c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SYS_FAULT" bidirectional
+			(at 702.31 59.69 90)
+			(uuid "83445489-2270-4fec-a974-b998ede85ad6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SYS_NRST" input
+			(at 704.85 59.69 90)
+			(uuid "18a9ca1d-4a6c-4580-8791-04fe02fbffc1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ch32v003-512"
+				(path "/5e6c9623-e737-45ef-bb1f-893413b06cbf"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 59.69)
+		(size 124.46 375.92)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c4cdeaa7-02f2-48f5-8115-a522dd175833")
+		(property "Sheetname" "col_0"
+			(at 190.5 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "column.kicad_sch"
+			(at 190.5 436.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3_COL" output
+			(at 199.39 59.69 90)
+			(uuid "dad8b50a-e665-4586-a1d8-7ab7af378df7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5V_ATX" input
+			(at 201.93 59.69 90)
+			(uuid "2f22f22e-fb15-40a6-8f78-7e4eb99139db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_CS" input
+			(at 218.44 59.69 90)
+			(uuid "4f65a5d1-5d4a-4187-8538-7e4146d52966")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_H_CLK" input
+			(at 220.98 59.69 90)
+			(uuid "1a88f812-8d66-4850-9f41-5d73173cacf5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_H_MISO" output
+			(at 223.52 59.69 90)
+			(uuid "059b304b-09cc-4465-a2ee-98f69dd77799")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_H_MOSI" input
+			(at 226.06 59.69 90)
+			(uuid "fb9b4f19-66a2-4d13-bb80-0730b9092eca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SYS_FAULT" bidirectional
+			(at 234.95 59.69 90)
+			(uuid "aa27817c-41ac-4d6e-9552-27667586c6c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SYS_NRST" input
+			(at 237.49 59.69 90)
+			(uuid "8f0415d4-94c4-4d04-a612-afcabfde9e63")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ch32v003-512"
+				(path "/5e6c9623-e737-45ef-bb1f-893413b06cbf"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

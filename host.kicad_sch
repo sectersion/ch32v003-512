@@ -1,0 +1,143 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "1b1c85d5-f99b-48db-bdc0-72ec36c53a29")
+	(paper "A4")
+	(title_block
+		(date "3/13/26")
+	)
+	(lib_symbols)
+	(hierarchical_label "SYS_NRST"
+		(shape output)
+		(at 267.97 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "244c2c2f-aecb-4a98-83a0-e3a39a6762f5")
+	)
+	(hierarchical_label "SPI_CS_COL2"
+		(shape output)
+		(at 267.97 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "709e451a-b81b-4b9b-969b-9c32890108c9")
+	)
+	(hierarchical_label "SPI_CS_COL0"
+		(shape output)
+		(at 267.97 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "727a9d2f-b4ba-4d69-821e-4ffaebded325")
+	)
+	(hierarchical_label "SPI_H_MISO"
+		(shape input)
+		(at 267.97 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "78de500a-d10a-412f-a73f-7e80eb79ae22")
+	)
+	(hierarchical_label "SPI_CS_COL3"
+		(shape output)
+		(at 267.97 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8909e5e4-a867-4e99-bd7d-1ba07ef6b476")
+	)
+	(hierarchical_label "SPI_CS_COl1"
+		(shape output)
+		(at 267.97 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ad440340-0f8c-422b-ba22-7c9332ebaae3")
+	)
+	(hierarchical_label "SYS_FAULT"
+		(shape output)
+		(at 267.97 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "afebb44e-b024-48ba-a029-be5f443ff3e4")
+	)
+	(hierarchical_label "USB_DM"
+		(shape bidirectional)
+		(at 267.97 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b6f2c572-fdc7-4b5f-b070-f7af0e50bf00")
+	)
+	(hierarchical_label "SPI_H_MOSI"
+		(shape output)
+		(at 267.97 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cbefd29c-965a-42c1-beee-a9e6aa45ef0e")
+	)
+	(hierarchical_label "SPI_H_CLK"
+		(shape output)
+		(at 267.97 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f8447a01-bc00-46f9-a8e0-a60fe11d12d1")
+	)
+	(hierarchical_label "3V3_MAIN"
+		(shape input)
+		(at 267.97 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fb4e5689-d76a-4262-8f1f-4f0d79bfb911")
+	)
+	(hierarchical_label "USB_DP"
+		(shape bidirectional)
+		(at 267.97 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fe6c7eea-f795-4cca-b918-595253d51b7b")
+	)
+)
