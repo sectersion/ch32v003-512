@@ -1,0 +1,272 @@
+ERC report (2026-03-13T19:49:12-0500, Encoding UTF8)
+
+***** Sheet /
+[pin_not_connected]: Pin not connected
+    ; error
+    @(700 mils, 800 mils): Symbol #PWR01 Pin 1 [Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(700 mils, 800 mils): Symbol #PWR01 Pin 1 [Power input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(900 mils, 800 mils): Symbol #PWR02 Pin 1 [Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(900 mils, 800 mils): Symbol #PWR02 Pin 1 [Power input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(900 mils, 1000 mils): Symbol #PWR03 Pin 1 [Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(900 mils, 1000 mils): Symbol #PWR03 Pin 1 [Power input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(7850 mils, 2350 mils): Hierarchical Sheet Pin 3V3_COL
+[label_dangling]: Label not connected to anything
+    ; error
+    @(8600 mils, 2350 mils): Label 'SPI_CS_COL0'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(8700 mils, 2350 mils): Label 'SPI_H_CLK'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(8800 mils, 2350 mils): Label 'SPI_H_MISO'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(8900 mils, 2350 mils): Label 'SPI_H_MOSI'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(2350 mils, 9200 mils): Label 'SPI_H_CLK'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(2450 mils, 9200 mils): Label 'SPI_H_MISO'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(2550 mils, 9200 mils): Label 'SPI_H_MOSI'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(9350 mils, 2350 mils): Label 'SYS_NRST'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(13900 mils, 2350 mils): Hierarchical Sheet Pin 3V3_COL
+[label_dangling]: Label not connected to anything
+    ; error
+    @(14550 mils, 2350 mils): Label 'SPI_CS_COL1'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(14650 mils, 2350 mils): Label 'SPI_H_CLK'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(14750 mils, 2350 mils): Label 'SPI_H_MISO'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(14850 mils, 2350 mils): Label 'SPI_H_MOSI'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(5150 mils, 14400 mils): Hierarchical Sheet Pin USB_DP
+[pin_not_connected]: Pin not connected
+    ; error
+    @(5150 mils, 14500 mils): Hierarchical Sheet Pin USB_DM
+[label_dangling]: Label not connected to anything
+    ; error
+    @(15350 mils, 2350 mils): Label 'SYS_NRST'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(5150 mils, 14800 mils): Label 'SPI_H_MOSI'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(5150 mils, 14900 mils): Label 'SPI_H_MISO'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(5150 mils, 15000 mils): Label 'SPI_H_CLK'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(5150 mils, 15100 mils): Label 'SPI_CS_COL3'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(5150 mils, 15200 mils): Label 'SPI_CS_COL2'
+[hier_label_mismatch]: Sheet pin SPI_CS_COl1 has no matching hierarchical label inside the sheet
+    ; error
+    @(5150 mils, 15300 mils): Hierarchical Sheet Pin SPI_CS_COl1
+[label_dangling]: Label not connected to anything
+    ; error
+    @(5150 mils, 15300 mils): Label 'SPI_CS_COL1'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(5150 mils, 15400 mils): Label 'SPI_CS_COL0'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(5150 mils, 15650 mils): Label 'SYS_NRST'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(20150 mils, 2350 mils): Hierarchical Sheet Pin 3V3_COL
+[label_dangling]: Label not connected to anything
+    ; error
+    @(20800 mils, 2350 mils): Label 'SPI_CS_COL2'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(20900 mils, 2350 mils): Label 'SPI_H_CLK'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(21000 mils, 2350 mils): Label 'SPI_H_MISO'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(21100 mils, 2350 mils): Label 'SPI_H_MOSI'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(21550 mils, 2350 mils): Label 'SYS_NRST'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(13850 mils, 18550 mils): Hierarchical Sheet Pin GND
+[pin_not_connected]: Pin not connected
+    ; error
+    @(26200 mils, 2350 mils): Hierarchical Sheet Pin 3V3_COL
+[label_dangling]: Label not connected to anything
+    ; error
+    @(26900 mils, 2350 mils): Label 'SPI_CS_COL3'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(27000 mils, 2350 mils): Label 'SPI_H_CLK'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(27100 mils, 2350 mils): Label 'SPI_H_MISO'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(27200 mils, 2350 mils): Label 'SPI_H_MOSI'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(27750 mils, 2350 mils): Label 'SYS_NRST'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(10550 mils, 2400 mils): Hierarchical Label '3V3_MAIN'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(10550 mils, 2600 mils): Hierarchical Label 'USB_DP'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(10550 mils, 2700 mils): Hierarchical Label 'USB_DM'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(10550 mils, 2850 mils): Hierarchical Label 'SPI_H_CLK'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(10550 mils, 2950 mils): Hierarchical Label 'SPI_H_MOSI'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(10550 mils, 3050 mils): Hierarchical Label 'SPI_H_MISO'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(10550 mils, 3150 mils): Hierarchical Label 'SPI_CS_COL0'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(10550 mils, 3250 mils): Hierarchical Label 'SPI_CS_COL1'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(10550 mils, 3350 mils): Hierarchical Label 'SPI_CS_COL2'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(10550 mils, 3450 mils): Hierarchical Label 'SPI_CS_COL3'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(10550 mils, 3750 mils): Hierarchical Label 'SYS_NRST'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(10550 mils, 3850 mils): Hierarchical Label 'SYS_FAULT'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(10700 mils, 550 mils): Hierarchical Label 'SYS_FAULT'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(10700 mils, 650 mils): Hierarchical Label 'PWR_GOOD'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(10700 mils, 750 mils): Hierarchical Label 'SPI_H_CLK'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(10700 mils, 850 mils): Hierarchical Label 'SPI_H_MOSI'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(10700 mils, 950 mils): Hierarchical Label 'SPI_H_MISO'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(10700 mils, 1050 mils): Hierarchical Label '3V3_MAIN'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(10750 mils, 550 mils): Hierarchical Label 'SPI_H_CLK'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(10750 mils, 650 mils): Hierarchical Label 'SPI_H_MOSI'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(10750 mils, 750 mils): Hierarchical Label 'SPI_H_MISO'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(10750 mils, 850 mils): Hierarchical Label 'SPI_CS'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(10750 mils, 950 mils): Hierarchical Label 'SYS_NRST'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(10750 mils, 1050 mils): Hierarchical Label 'SYS_FAULT'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(10750 mils, 1150 mils): Hierarchical Label '5V_ATX'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(10750 mils, 1250 mils): Hierarchical Label '3V3_COL'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(3100 mils, 3200 mils): Hierarchical Label 'PWR_GOOD'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(2250 mils, 9200 mils): Global Label 'PWR_GOOD'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(9250 mils, 2350 mils): Global Label 'SYS_FAULT'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(2650 mils, 9200 mils): Global Label 'SYS_FAULT'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(15250 mils, 2350 mils): Global Label 'SYS_FAULT'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(5150 mils, 15750 mils): Global Label 'SYS_FAULT'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(21450 mils, 2350 mils): Global Label 'SYS_FAULT'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(13850 mils, 18650 mils): Global Label 'PWR_GOOD'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(27650 mils, 2350 mils): Global Label 'SYS_FAULT'
+[footprint_link_issues]: The current configuration does not include the footprint library 'PJ-002A'.
+    ; warning
+    @(1450 mils, 1500 mils): Symbol J1 [PJ-002A]
+
+***** Sheet /backplane_power/
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(2000 mils, 3100 mils): Symbol U1 Pin 3 [VI, Power input, Line]
+[multiple_net_names]: Both +3V3 and 3V3 are attached to the same items; +3V3 will be used in the netlist
+    ; warning
+    @(2750 mils, 3100 mils): Symbol #PWR05 Pin 1 [Power input, Line]
+    @(2850 mils, 3100 mils): Hierarchical Label '3V3'
+
+***** Sheet /col_1/
+
+***** Sheet /col_0/
+
+***** Sheet /col_2/
+
+***** Sheet /col_3/
+
+***** Sheet /host_mcu/
+[hier_label_mismatch]: Hierarchical label SPI_CS_COL1 has no matching sheet pin in the parent sheet
+    ; error
+    @(10550 mils, 3250 mils): Hierarchical Label 'SPI_CS_COL1'
+
+***** Sheet /backplane_leds/
+
+ ** ERC messages: 84  Errors 74  Warnings 10

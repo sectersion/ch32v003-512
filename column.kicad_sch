@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "e434424c-c2af-426c-9267-4cab8b28cc0e")
+	(uuid "2e65226b-6390-43e0-b675-6866e293aebf")
 	(paper "A4")
 	(title_block
 		(date "3/13/26")
@@ -74,7 +74,7 @@
 		)
 		(uuid "76969431-bf8b-481c-8561-c94067172390")
 	)
-	(hierarchical_label "3V3_COL"
+	(hierarchical_label "COL_PWR_GOOD"
 		(shape output)
 		(at 273.05 31.75 0)
 		(effects

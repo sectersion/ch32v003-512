@@ -1257,7 +1257,7 @@
 				(justify left top)
 			)
 		)
-		(pin "3V3_COL" output
+		(pin "COL2_PWR_GOOD" output
 			(at 511.81 59.69 90)
 			(uuid "2ea1f781-62e6-405d-bd53-de9c80cb08f9")
 			(effects
@@ -1379,7 +1379,7 @@
 				(justify left top)
 			)
 		)
-		(pin "3V3_COL" output
+		(pin "COL1_PWR_GOOD" output
 			(at 353.06 59.69 90)
 			(uuid "5f335f6f-7c6e-4206-bdfa-28098109c93e")
 			(effects
@@ -1613,7 +1613,7 @@
 				(justify right)
 			)
 		)
-		(pin "SPI_CS_COl1" output
+		(pin "SPI_CS_COL1" output
 			(at 130.81 388.62 0)
 			(uuid "4d52bd8a-743f-43d5-b193-5428a27c7d80")
 			(effects
@@ -1847,7 +1847,7 @@
 				(justify left top)
 			)
 		)
-		(pin "3V3_COL" output
+		(pin "COL3_PWR_GOOD" output
 			(at 665.48 59.69 90)
 			(uuid "e3929ef0-ae9c-42db-91dc-11f029c87e86")
 			(effects
@@ -1969,7 +1969,7 @@
 				(justify left top)
 			)
 		)
-		(pin "3V3_COL" output
+		(pin "COL0_PWR_GOOD" output
 			(at 199.39 59.69 90)
 			(uuid "dad8b50a-e665-4586-a1d8-7ab7af378df7")
 			(effects

@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "1b1c85d5-f99b-48db-bdc0-72ec36c53a29")
+	(uuid "ca86a585-ab9a-4e44-8d88-398691e8b19a")
 	(paper "A4")
 	(title_block
 		(date "3/13/26")
@@ -63,7 +63,7 @@
 		)
 		(uuid "8909e5e4-a867-4e99-bd7d-1ba07ef6b476")
 	)
-	(hierarchical_label "SPI_CS_COl1"
+	(hierarchical_label "SPI_CS_COL1"
 		(shape output)
 		(at 267.97 82.55 0)
 		(effects
