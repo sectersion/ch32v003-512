@@ -12,7 +12,7 @@
 
 ## Overview
 
-STASIS is a custom compute cluster built entirely from WCH CH32V003 RISC-V microcontrollers. 512 worker cores are organized across 32 hot-swappable modules, connected via a hierarchical SPI fabric to a host MCU that interfaces with a PC over USB. The system is designed for parallel workloads including neural network inference, raytracing, cellular automata, and any embarrassingly parallel computation.
+CH32V003512 is a custom compute cluster built entirely from WCH CH32V003 RISC-V microcontrollers. 512 worker cores are organized across 32 hot-swappable modules, connected via a hierarchical SPI fabric to a host MCU that interfaces with a PC over USB. The system is designed for parallel workloads including neural network inference, raytracing, cellular automata, and any embarrassingly parallel computation.
 
 I created this project inspired by [bitluni's lab](https://bitluni.net/) take on a ch32v003 cluster. The architecture was inspired by my prior knowledge of chip design. My goal is to emulate tiny distributed computing in an easy to understand way.
 
