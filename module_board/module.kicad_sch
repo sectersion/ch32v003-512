@@ -1,0 +1,107 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "de73277a-5099-4696-960a-11c1521f53c2")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "MOD_SPI_MOSI"
+		(shape input)
+		(at 228.6 16.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "03748899-3519-4a40-8dfa-db48760f25a4")
+	)
+	(hierarchical_label "GPIO_DOUT"
+		(shape output)
+		(at 228.6 19.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1ac02fe0-8869-4c09-ac7e-d28dee601167")
+	)
+	(hierarchical_label "MOD_SPI_CLK"
+		(shape input)
+		(at 228.6 13.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "319ae3c6-10da-499d-86c4-8beadc57522f")
+	)
+	(hierarchical_label "3V3_MOD"
+		(shape input)
+		(at 248.92 16.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5ae74db7-675f-4693-bab1-11856c1a24d6")
+	)
+	(hierarchical_label "MOD_STATUS"
+		(shape output)
+		(at 270.51 13.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "74e7ab83-dd3e-4522-aa2b-0e5972d1b74b")
+	)
+	(hierarchical_label "MOD_CS"
+		(shape input)
+		(at 228.6 21.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7bfb275a-cdf3-4c77-8642-210a213c6b9a")
+	)
+	(hierarchical_label "SYS_RST"
+		(shape input)
+		(at 270.51 16.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ba9eb80d-b046-4949-8d71-520fcee1ff2b")
+	)
+	(hierarchical_label "MOD_PWR_EN"
+		(shape input)
+		(at 270.51 19.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c7dcb238-7a58-46ea-9069-d1dc6edc6153")
+	)
+	(hierarchical_label "GND_PASS"
+		(shape output)
+		(at 248.92 13.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f0a2b66b-74e4-48f2-94dd-b514c5d3855c")
+	)
+)
