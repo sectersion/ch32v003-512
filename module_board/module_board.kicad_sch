@@ -1606,10 +1606,6 @@
 		(uuid "56c9b4c3-628f-4172-bf73-d0a1ddf04287")
 	)
 	(no_connect
-		(at 27.94 87.63)
-		(uuid "5daf3fb8-7d36-4a96-8609-844e256b3d1a")
-	)
-	(no_connect
 		(at 27.94 77.47)
 		(uuid "6aebe145-36e7-44d6-8c92-8f30ab9883b9")
 	)
@@ -1650,6 +1646,10 @@
 		(uuid "9eb589ae-1540-4fcb-ba41-b1ad0255d547")
 	)
 	(no_connect
+		(at 27.94 125.73)
+		(uuid "a1a38f7f-1bb6-436b-bc1a-ec05942aa9b8")
+	)
+	(no_connect
 		(at 27.94 133.35)
 		(uuid "a954fd76-0bad-4f55-af9f-373e4d03114a")
 	)
@@ -1688,10 +1688,6 @@
 	(no_connect
 		(at 27.94 72.39)
 		(uuid "e1af8254-5f6e-4bf2-a147-c05b6c7bf5b8")
-	)
-	(no_connect
-		(at 27.94 90.17)
-		(uuid "e44d8081-b7cf-4432-a1ca-a45ec9e59be6")
 	)
 	(no_connect
 		(at 78.74 113.03)
@@ -1819,6 +1815,50 @@
 		)
 		(uuid "ed88a824-6492-43e7-bd75-6b3e4be2e9ef")
 	)
+	(global_label "SWDIO"
+		(shape output)
+		(at 27.94 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "021907da-8fc5-4c4b-884e-3894dc197c50")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 19.0886 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SWDIO"
+		(shape input)
+		(at 242.57 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "09e2e767-6ca1-4b95-801b-fba3a4cf39e6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 251.4214 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MOD_SPI_CLK"
 		(shape input)
 		(at 242.57 138.43 0)
@@ -1859,28 +1899,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MOD_PWR_EN"
-		(shape output)
-		(at 27.94 125.73 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2868790d-80cf-4c3d-a8e2-e64ddfe376fb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 12.4968 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -1947,6 +1965,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SWDCLK"
+		(shape output)
+		(at 27.94 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4e6ac03c-1244-4fb9-b9f2-873f56625a55")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 17.4558 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2127,28 +2167,6 @@
 			)
 		)
 	)
-	(global_label "MOD_PWR_EN"
-		(shape input)
-		(at 242.57 140.97 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f2c8da2a-c316-4cf6-b513-4dbcbedf2ff9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 258.0132 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MOD_SPI_MOSI"
 		(shape output)
 		(at 78.74 87.63 0)
@@ -2171,13 +2189,35 @@
 			)
 		)
 	)
+	(global_label "SWDCLK"
+		(shape input)
+		(at 242.57 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ff08b7a0-dff0-46dd-9038-d6fc7a4e1e18")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 253.0542 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Connector:Bus_M.2_Socket_B")
 		(at 53.34 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90f08040-cf99-4433-ab0c-f92386a18296")
@@ -2632,16 +2672,6 @@
 				(justify right)
 			)
 		)
-		(pin "MOD_PWR_EN" input
-			(at 242.57 140.97 0)
-			(uuid "8ad2632f-d134-48d4-8a39-a313585a7b20")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "MOD_SPI_CLK" input
 			(at 242.57 138.43 0)
 			(uuid "dda5bbe4-d80b-405a-b0b8-e8228c71c4f7")
@@ -2685,6 +2715,26 @@
 		(pin "SYS_NRST" input
 			(at 242.57 128.27 0)
 			(uuid "a7a28b4b-0c45-49e9-9c80-729647c6002d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOD_SWDCLK" input
+			(at 242.57 121.92 0)
+			(uuid "5852b00a-b2bf-424c-95f5-7eb5cfb71ca1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOD_SWDIO" input
+			(at 242.57 119.38 0)
+			(uuid "6df8708a-bb62-44c5-bde3-efe4c0526333")
 			(effects
 				(font
 					(size 1.27 1.27)

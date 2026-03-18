@@ -3589,6 +3589,10 @@
 		(uuid "d3bfe565-045f-4ff5-92cb-89f909b71714")
 	)
 	(no_connect
+		(at 127 119.38)
+		(uuid "d420532c-ab4a-459c-ad5c-66a834fea70a")
+	)
+	(no_connect
 		(at 177.8 129.54)
 		(uuid "d5466c60-e060-4df6-915b-07e5e883dc69")
 	)
@@ -4565,16 +4569,6 @@
 			(justify right bottom)
 		)
 		(uuid "26044a27-92b8-4123-8ec0-6b1a53d6c1fd")
-	)
-	(label "MODULE_PWR_EN"
-		(at 127 119.38 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2c95d01f-054e-439e-87ca-a13506574f8a")
 	)
 	(label "MODS_SPI_MISO"
 		(at 40.64 124.46 180)
