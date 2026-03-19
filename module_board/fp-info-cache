@@ -1,4 +1,4 @@
-26765576334879698
+26777993195545939
 APT2012SGC
 APT2012SGC
 
@@ -70580,6 +70580,34 @@ Yellow 5381 Series LED
 0
 2
 2
+M.2-Templates
+M.2-B+M-KEY
+
+
+0
+60
+60
+M.2-Templates
+M.2-B-KEY
+
+
+0
+68
+68
+M.2-Templates
+M.2-B-KEY-2280-ADAPTER
+
+
+0
+69
+69
+M.2-Templates
+M.2-KEY-BLANK
+
+
+0
+76
+76
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -106371,10 +106399,31 @@ Varistor VF
 0
 2
 2
-m2bkey
-m2bkey
+asset_lib
+hc_bw
 
 
 0
-68
-68
+0
+0
+asset_lib
+hc_bw_small
+
+
+0
+0
+0
+asset_lib
+nl_bw
+
+
+0
+0
+0
+asset_lib
+nl_bw_large
+
+
+0
+0
+0

@@ -1197,28 +1197,14 @@
 		)
 	)
 	(junction
-		(at 137.16 77.47)
+		(at 167.64 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "210af0ec-21af-4e7a-9e24-f25b97891388")
+		(uuid "6c0a216c-787d-4153-9a51-69c619266bc4")
 	)
-	(junction
-		(at 156.21 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "416bf023-fea5-4b82-baff-f5867b6c7b95")
-	)
-	(junction
-		(at 137.16 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6277f5b1-8778-43ae-973b-8eb332222664")
-	)
-	(junction
-		(at 165.1 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "82bf46ab-5ed1-401d-8780-8188ec88c519")
+	(no_connect
+		(at 147.32 92.71)
+		(uuid "1f5c3a64-0e32-4b88-bf7e-a19749e647e9")
 	)
 	(no_connect
 		(at 127 97.79)
@@ -1227,6 +1213,10 @@
 	(no_connect
 		(at 127 100.33)
 		(uuid "7784cbc1-73aa-4c49-8694-61c9ddb39a30")
+	)
+	(no_connect
+		(at 127 82.55)
+		(uuid "85426ebf-dc77-4e97-a50b-62ae3d3a7f09")
 	)
 	(no_connect
 		(at 127 90.17)
@@ -1250,183 +1240,73 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 71.12) (xy 172.72 80.01)
+			(xy 167.64 81.28) (xy 167.64 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0e7ec329-1785-4684-a54a-bb0cc03ec5db")
+		(uuid "21f4c9c4-0390-46f8-9b6a-3495cd4d4b02")
 	)
 	(wire
 		(pts
-			(xy 161.29 113.03) (xy 157.48 116.84)
+			(xy 137.16 113.03) (xy 167.64 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1185472d-2ef3-4899-8886-8aa761c004b3")
+		(uuid "37d3d60c-1189-4a23-af3f-f9cb7afd8316")
 	)
 	(wire
 		(pts
-			(xy 156.21 77.47) (xy 156.21 71.12)
+			(xy 147.32 87.63) (xy 190.5 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "24c61ccf-819a-4a07-9109-4adcce1d38d8")
+		(uuid "5d35f33d-8f32-48e0-a84f-60ac82c4f0ec")
 	)
 	(wire
 		(pts
-			(xy 156.21 77.47) (xy 161.29 82.55)
+			(xy 163.83 77.47) (xy 167.64 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "293ad00e-63dc-42c5-8b13-5ad71be3ecce")
+		(uuid "76751a2a-253a-45c5-990a-e349fcc8374c")
 	)
 	(wire
 		(pts
-			(xy 129.54 77.47) (xy 137.16 77.47)
+			(xy 185.42 113.03) (xy 190.5 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "42a3837a-dd0e-4792-8998-99f695cd68bb")
+		(uuid "7faf7c08-b0cb-4965-9b6c-c9fe9ca3ecee")
 	)
 	(wire
 		(pts
-			(xy 160.02 67.31) (xy 165.1 67.31)
+			(xy 167.64 113.03) (xy 185.42 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4b532979-85ff-476b-bf55-353136c02087")
+		(uuid "85f3c2a7-99ee-442c-b41e-2804591b6c84")
 	)
 	(wire
 		(pts
-			(xy 161.29 82.55) (xy 161.29 113.03)
+			(xy 142.24 77.47) (xy 163.83 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "624490ca-0c06-462b-8e52-81fb76ba5aad")
-	)
-	(wire
-		(pts
-			(xy 156.21 71.12) (xy 160.02 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a242117-971a-4b7d-b5bd-a598a04cb590")
-	)
-	(wire
-		(pts
-			(xy 137.16 77.47) (xy 156.21 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72cf2a44-ca32-4b0c-b33a-6aa6d8d899bf")
-	)
-	(wire
-		(pts
-			(xy 121.92 69.85) (xy 129.54 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "742a4e91-2089-4721-83f6-966de391d5f6")
-	)
-	(wire
-		(pts
-			(xy 147.32 87.63) (xy 165.1 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79f87e8c-99c4-4534-97e2-0ddf5b075147")
-	)
-	(wire
-		(pts
-			(xy 119.38 69.85) (xy 121.92 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91e70c6c-a269-4ee1-8677-59e2c75a1690")
-	)
-	(wire
-		(pts
-			(xy 137.16 116.84) (xy 137.16 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af2c44c4-55ed-4d49-852d-69e877844941")
-	)
-	(wire
-		(pts
-			(xy 165.1 67.31) (xy 168.91 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5c5cf82-b6ef-4c1c-a23c-1a3d8bb36106")
-	)
-	(wire
-		(pts
-			(xy 168.91 67.31) (xy 172.72 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7f13b75-6584-43f1-bf5d-0e43f328ba9a")
-	)
-	(wire
-		(pts
-			(xy 137.16 119.38) (xy 137.16 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc394295-dd23-4f27-9aa7-cc51a5213d85")
-	)
-	(wire
-		(pts
-			(xy 142.24 116.84) (xy 157.48 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed50c81f-e619-4805-8935-a55e37783ff6")
-	)
-	(wire
-		(pts
-			(xy 147.32 92.71) (xy 165.1 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9279b23-6b9d-4faa-b447-0bc929891f19")
+		(uuid "ecf2a575-5a38-452b-ac1f-d54ed1ccb587")
 	)
 	(hierarchical_label "MOD_SPI_MOSI"
 		(shape input)
@@ -1474,12 +1354,12 @@
 	)
 	(hierarchical_label "3V3_MOD"
 		(shape input)
-		(at 137.16 119.38 270)
+		(at 137.16 77.47 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "5ae74db7-675f-4693-bab1-11856c1a24d6")
 	)
@@ -1529,269 +1409,18 @@
 	)
 	(hierarchical_label "GND_PASS"
 		(shape output)
-		(at 137.16 77.47 90)
+		(at 137.16 113.03 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "f0a2b66b-74e4-48f2-94dd-b514c5d3855c")
 	)
 	(symbol
 		(lib_id "APT2012SGC:APT2012SGC")
-		(at 172.72 85.09 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "10f08ebc-cbf1-41a4-9e8d-90ba3e9ee1f5")
-		(property "Reference" "D17"
-			(at 175.26 85.0899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "APT2012LVBC/D (BLUE)"
-			(at 175.26 87.6299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "APT2012SGC:APT2012SGC"
-			(at 172.72 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 172.72 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Kingbright"
-			(at 172.72 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.75mm"
-			(at 172.72 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805 Kingbright"
-			(at 172.72 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 172.72 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/APT2012SGC/Kingbright/view-part/?ref=eda"
-			(at 172.72 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 172.72 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "V.20B"
-			(at 172.72 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/APT2012SGC/Kingbright/view-part/?ref=snap"
-			(at 172.72 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "APT2012SGC"
-			(at 172.72 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Green 568nm LED Indication - Discrete 2.2V 0805 (2012 Metric)"
-			(at 172.72 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 172.72 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Kingbright"
-			(at 172.72 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f1a23e10-c205-430a-8938-37df303b6ee8")
-		)
-		(pin "1"
-			(uuid "72e1cb20-8794-43e3-aed8-1c1f42a16aaf")
-		)
-		(instances
-			(project "module_board"
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/0aecfd6a-b0de-490c-986e-3a18daa3f46c"
-					(reference "D28")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/0b3bf2c6-c170-4470-984c-cce262ba5143"
-					(reference "D19")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/249d6a7e-4095-4b9d-8d38-5e66fe5b5ba7"
-					(reference "D26")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/2d1df88d-6e6d-4c44-bafd-fdfca40b1859"
-					(reference "D25")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/3c20033f-46dd-41de-bc65-c711c293c9df"
-					(reference "D24")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/3cbc5c77-5204-4cbf-b3f8-8e999e1c6ea3"
-					(reference "D23")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/5287d6a1-0122-40bf-846b-78368ae8054e"
-					(reference "D21")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/5eac29e3-88f8-482a-8bc4-b89a93e585a0"
-					(reference "D17")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/60c7c40f-e280-4440-aaf1-5fe3715153e6"
-					(reference "D22")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/66140f86-eeaf-4e07-b902-3c849d32b5e3"
-					(reference "D30")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/67707070-f794-4336-a80a-8589cf636768"
-					(reference "D31")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/86b266d0-48f4-4d00-b2cd-6a8b68f70de9"
-					(reference "D27")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/8fa066a4-60fa-4e93-978a-b0399db8c113"
-					(reference "D29")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/a3987f96-e599-4f68-beae-983f04626c4f"
-					(reference "D18")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/aa287943-5223-4bf4-97b3-02ca37e23f43"
-					(reference "D32")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/acacfc84-2cbb-4081-a13d-be454d7d469f"
-					(reference "D20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "APT2012SGC:APT2012SGC")
-		(at 165.1 72.39 90)
+		(at 190.5 102.87 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1800,7 +1429,7 @@
 		(fields_autoplaced yes)
 		(uuid "3a73a4f4-001f-49ce-9aaa-ca484298c3f7")
 		(property "Reference" "D1"
-			(at 167.64 72.3899 90)
+			(at 187.96 102.8701 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1809,7 +1438,7 @@
 			)
 		)
 		(property "Value" "APT2012SGC (GREEN)"
-			(at 167.64 74.9299 90)
+			(at 187.96 100.3301 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1818,7 +1447,7 @@
 			)
 		)
 		(property "Footprint" "APT2012SGC:APT2012SGC"
-			(at 165.1 72.39 0)
+			(at 190.5 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1828,7 +1457,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 72.39 0)
+			(at 190.5 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1837,7 +1466,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 165.1 72.39 0)
+			(at 190.5 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1846,7 +1475,7 @@
 			)
 		)
 		(property "MF" "Kingbright"
-			(at 165.1 72.39 0)
+			(at 190.5 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1856,7 +1485,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "0.75mm"
-			(at 165.1 72.39 0)
+			(at 190.5 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1866,7 +1495,7 @@
 			)
 		)
 		(property "Package" "0805 Kingbright"
-			(at 165.1 72.39 0)
+			(at 190.5 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1876,7 +1505,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 165.1 72.39 0)
+			(at 190.5 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1886,7 +1515,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/APT2012SGC/Kingbright/view-part/?ref=eda"
-			(at 165.1 72.39 0)
+			(at 190.5 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1896,7 +1525,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 165.1 72.39 0)
+			(at 190.5 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1906,7 +1535,7 @@
 			)
 		)
 		(property "PARTREV" "V.20B"
-			(at 165.1 72.39 0)
+			(at 190.5 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1916,7 +1545,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/APT2012SGC/Kingbright/view-part/?ref=snap"
-			(at 165.1 72.39 0)
+			(at 190.5 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1926,7 +1555,7 @@
 			)
 		)
 		(property "MP" "APT2012SGC"
-			(at 165.1 72.39 0)
+			(at 190.5 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1936,7 +1565,7 @@
 			)
 		)
 		(property "Description_1" "Green 568nm LED Indication - Discrete 2.2V 0805 (2012 Metric)"
-			(at 165.1 72.39 0)
+			(at 190.5 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1946,7 +1575,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 165.1 72.39 0)
+			(at 190.5 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1956,7 +1585,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Kingbright"
-			(at 165.1 72.39 0)
+			(at 190.5 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2228,137 +1857,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 168.91 92.71 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "48b82acf-0672-4e44-979a-4d615131ab55")
-		(property "Reference" "R17"
-			(at 170.1801 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220"
-			(at 167.6401 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 168.91 90.932 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 168.91 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "86fb9a93-5925-4edf-8c6a-cbd71287cb87")
-		)
-		(pin "2"
-			(uuid "d3a7f6bf-e514-41ed-a6a6-cad9d24da6ab")
-		)
-		(instances
-			(project "module_board"
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/0aecfd6a-b0de-490c-986e-3a18daa3f46c"
-					(reference "R28")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/0b3bf2c6-c170-4470-984c-cce262ba5143"
-					(reference "R19")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/249d6a7e-4095-4b9d-8d38-5e66fe5b5ba7"
-					(reference "R26")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/2d1df88d-6e6d-4c44-bafd-fdfca40b1859"
-					(reference "R25")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/3c20033f-46dd-41de-bc65-c711c293c9df"
-					(reference "R24")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/3cbc5c77-5204-4cbf-b3f8-8e999e1c6ea3"
-					(reference "R23")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/5287d6a1-0122-40bf-846b-78368ae8054e"
-					(reference "R21")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/5eac29e3-88f8-482a-8bc4-b89a93e585a0"
-					(reference "R17")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/60c7c40f-e280-4440-aaf1-5fe3715153e6"
-					(reference "R22")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/66140f86-eeaf-4e07-b902-3c849d32b5e3"
-					(reference "R30")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/67707070-f794-4336-a80a-8589cf636768"
-					(reference "R31")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/86b266d0-48f4-4d00-b2cd-6a8b68f70de9"
-					(reference "R27")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/8fa066a4-60fa-4e93-978a-b0399db8c113"
-					(reference "R29")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/a3987f96-e599-4f68-beae-983f04626c4f"
-					(reference "R18")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/aa287943-5223-4bf4-97b3-02ca37e23f43"
-					(reference "R32")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/acacfc84-2cbb-4081-a13d-be454d7d469f"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 165.1 83.82 0)
+		(at 190.5 91.44 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2366,7 +1865,7 @@
 		(dnp no)
 		(uuid "5b879132-cc61-4715-ba7a-a5d077c07983")
 		(property "Reference" "R1"
-			(at 163.83 82.804 0)
+			(at 191.77 92.456 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2375,7 +1874,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 163.83 85.344 0)
+			(at 191.77 89.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2384,7 +1883,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 163.322 83.82 90)
+			(at 192.278 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2393,7 +1892,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 83.82 0)
+			(at 190.5 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2402,7 +1901,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 165.1 83.82 0)
+			(at 190.5 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2486,136 +1985,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 123.19 82.55 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7b7bd16a-5a0c-451a-add5-0f6519bfa8e0")
-		(property "Reference" "R33"
-			(at 123.19 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "170"
-			(at 123.19 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 123.19 80.772 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 123.19 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 123.19 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4a0697e4-efb8-417a-9be6-ebbe74221858")
-		)
-		(pin "2"
-			(uuid "7a61db24-d483-446b-a104-6141409a517f")
-		)
-		(instances
-			(project "module_board"
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/0aecfd6a-b0de-490c-986e-3a18daa3f46c"
-					(reference "R44")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/0b3bf2c6-c170-4470-984c-cce262ba5143"
-					(reference "R35")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/249d6a7e-4095-4b9d-8d38-5e66fe5b5ba7"
-					(reference "R42")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/2d1df88d-6e6d-4c44-bafd-fdfca40b1859"
-					(reference "R41")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/3c20033f-46dd-41de-bc65-c711c293c9df"
-					(reference "R40")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/3cbc5c77-5204-4cbf-b3f8-8e999e1c6ea3"
-					(reference "R39")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/5287d6a1-0122-40bf-846b-78368ae8054e"
-					(reference "R37")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/5eac29e3-88f8-482a-8bc4-b89a93e585a0"
-					(reference "R33")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/60c7c40f-e280-4440-aaf1-5fe3715153e6"
-					(reference "R38")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/66140f86-eeaf-4e07-b902-3c849d32b5e3"
-					(reference "R46")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/67707070-f794-4336-a80a-8589cf636768"
-					(reference "R47")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/86b266d0-48f4-4d00-b2cd-6a8b68f70de9"
-					(reference "R43")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/8fa066a4-60fa-4e93-978a-b0399db8c113"
-					(reference "R45")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/a3987f96-e599-4f68-beae-983f04626c4f"
-					(reference "R34")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/aa287943-5223-4bf4-97b3-02ca37e23f43"
-					(reference "R48")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/acacfc84-2cbb-4081-a13d-be454d7d469f"
-					(reference "R36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
-		(at 139.7 116.84 90)
+		(at 139.7 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2623,7 +1994,7 @@
 		(dnp no)
 		(uuid "9ed2acd5-17da-40d4-91ca-ebb20e404e8d")
 		(property "Reference" "C1"
-			(at 139.446 114.808 90)
+			(at 139.446 75.438 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2631,7 +2002,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 139.446 117.348 90)
+			(at 139.446 77.978 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2639,7 +2010,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 139.7 116.84 0)
+			(at 139.7 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2648,7 +2019,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 116.84 0)
+			(at 139.7 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2657,7 +2028,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 139.7 116.84 0)
+			(at 139.7 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2735,256 +2106,6 @@
 				)
 				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/acacfc84-2cbb-4081-a13d-be454d7d469f"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "APT2012SGC:APT2012SGC")
-		(at 119.38 74.93 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b9d1a17b-6828-47c8-9fb1-4555951b48fe")
-		(property "Reference" "D33"
-			(at 106.172 73.152 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "APT2012EC (RED)"
-			(at 100.838 75.438 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "APT2012SGC:APT2012SGC"
-			(at 119.38 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 119.38 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Kingbright"
-			(at 119.38 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.75mm"
-			(at 119.38 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805 Kingbright"
-			(at 119.38 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 119.38 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/APT2012SGC/Kingbright/view-part/?ref=eda"
-			(at 119.38 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 119.38 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "V.20B"
-			(at 119.38 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/APT2012SGC/Kingbright/view-part/?ref=snap"
-			(at 119.38 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "APT2012SGC"
-			(at 119.38 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Green 568nm LED Indication - Discrete 2.2V 0805 (2012 Metric)"
-			(at 119.38 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 119.38 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Kingbright"
-			(at 119.38 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b9591d88-880b-4660-ab9a-07a03879b6f8")
-		)
-		(pin "1"
-			(uuid "f66ca2b0-f2fc-4c51-b14f-097f39214e65")
-		)
-		(instances
-			(project "module_board"
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/0aecfd6a-b0de-490c-986e-3a18daa3f46c"
-					(reference "D44")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/0b3bf2c6-c170-4470-984c-cce262ba5143"
-					(reference "D35")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/249d6a7e-4095-4b9d-8d38-5e66fe5b5ba7"
-					(reference "D42")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/2d1df88d-6e6d-4c44-bafd-fdfca40b1859"
-					(reference "D41")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/3c20033f-46dd-41de-bc65-c711c293c9df"
-					(reference "D40")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/3cbc5c77-5204-4cbf-b3f8-8e999e1c6ea3"
-					(reference "D39")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/5287d6a1-0122-40bf-846b-78368ae8054e"
-					(reference "D37")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/5eac29e3-88f8-482a-8bc4-b89a93e585a0"
-					(reference "D33")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/60c7c40f-e280-4440-aaf1-5fe3715153e6"
-					(reference "D38")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/66140f86-eeaf-4e07-b902-3c849d32b5e3"
-					(reference "D46")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/67707070-f794-4336-a80a-8589cf636768"
-					(reference "D47")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/86b266d0-48f4-4d00-b2cd-6a8b68f70de9"
-					(reference "D43")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/8fa066a4-60fa-4e93-978a-b0399db8c113"
-					(reference "D45")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/a3987f96-e599-4f68-beae-983f04626c4f"
-					(reference "D34")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/aa287943-5223-4bf4-97b3-02ca37e23f43"
-					(reference "D48")
-					(unit 1)
-				)
-				(path "/892228ae-8a10-4ece-b396-6496ebc21a77/10a1c443-4f81-4c8f-943b-54264e4ce98e/acacfc84-2cbb-4081-a13d-be454d7d469f"
-					(reference "D36")
 					(unit 1)
 				)
 			)
